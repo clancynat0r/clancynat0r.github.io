@@ -14,11 +14,8 @@ import HeroDark from "./images/hero-dark.jpg";
 export { HeroLight as Light };
 export { HeroDark as Dark };
 
-/* START HERE
- **************************************************************
-  Add your GitHub username (string - "YourUsername") below.
-*/
-export const githubUsername = "Your GitHub username here";
+
+export const githubUsername = "clancynat0r";
 
 // Navbar Logo image
 export const navLogo = undefined;
