@@ -1,8 +1,8 @@
 {
   "name": "github-react-portfolio-template",
-  "homepage": "https://clancynat0r.github.io/my-app/",
+  "homepage": "https://clancynat0r.github.io",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@iconify/react": "^4.1.0",
     "@reduxjs/toolkit": "^1.9.5",
