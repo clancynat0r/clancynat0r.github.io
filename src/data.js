@@ -21,7 +21,7 @@ export const githubUsername = "clancynat0r";
 export const navLogo = undefined;
 
 // Blog link icon - https://icon-sets.iconify.design/
-export const Blog = <Icon icon="ph:link-bold" />;
+export const Blog = <Icon icon="simple-icons:linkedin" />;
 
 /* About Me
  **************************************************************
