@@ -28,7 +28,7 @@ export const Blog = <Icon icon="ph:link-bold" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "Hi, I am an aspiring software engineer with with 7 years in the Finance sector. I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "Hello, I'm Clancy, thanks for visiting my portfolio! I am an aspiring software engineer. I started my journey when I was 13, when I tought myself HTML and Javascript at my school library. I have always been passionate about making technology that is easy to use, easy to share, and easy to adapt for other functions. Since my foray into programming at a young age, I have always maintained interest in coding, and adapted the skills I learned into my professional career. When I'm not programming in my free time, you can catch me working on any of my cars, and troubleshooting one thing or another around the house. I love going on hikes with my two dogs and on Sundays you'll find me planted on the couch watching Formula 1 races.";
 
 /* Skills
  ************************************************************** 
@@ -67,23 +67,38 @@ export const skillData = [
   },
   {
     id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
+    skill: <Icon icon="ph:graph-light" className="display-4" />,
+    name: "Object-Oriented Programming",
   },
   {
     id: 8,
-    skill: <Icon icon="bi:git" className="display-4" />,
-    name: "Git",
+    skill: <Icon icon="file-icons:php" className="display-4" />,
+    name: "PHP",
   },
   {
     id: 9,
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 10,
+    skill: <Icon icon="bi:git" className="display-4" />,
+    name: "Git",
+  },
+  {
+    id: 11,
+    skill: <Icon icon="mdi:powershell" className="display-4" />,
+    name: "PowerShell",
+  },
+  {
+    id: 12,
+    skill: <Icon icon="mdi:sql-query" className="display-4" />,
+    name: "SQL",
+  },
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = null;
+export const resume = "https://docs.google.com/document/d/e/2PACX-1vQK0WIMEZbTBbPjNBASVEAqiKN8jS1Z9GLNoXi2CmS4_wSSV8kGbL9F9ROiUYiRLZsF7MBM7MY1In0g/pub";
 
 /* Projects
  ************************************************************** 
