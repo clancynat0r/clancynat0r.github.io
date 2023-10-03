@@ -5,7 +5,9 @@ import { Icon } from "@iconify/react";
 // import newLogo from "./images/yourFileName"
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+import Logo from "./images/tic-tac-toe.png";
+import Logo2 from "./images/typetest.png";
+import Logo3 from "./images/photosynthesis.png";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -28,7 +30,7 @@ export const Blog = <Icon icon="simple-icons:linkedin" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "Hello, I'm Clancy, thanks for visiting my portfolio! I am an aspiring software engineer. I started my journey when I was 13, when I tought myself HTML and Javascript at my school library. I have always been passionate about making technology that is easy to use, easy to share, and easy to adapt for other functions. Since my foray into programming at a young age, I have always maintained interest in coding, and adapted the skills I learned into my professional career. When I'm not programming in my free time, you can catch me working on any of my cars, and troubleshooting one thing or another around the house. I love going on hikes with my two dogs and on Sundays you'll find me planted on the couch watching Formula 1 races.";
+  "Hello, I'm Clancy, an aspiring software engineer who began coding at 13, teaching myself HTML and Javascript at my school library. My passion lies in creating user-friendly, shareable, and adaptable technology. I've continued my programming journey into my professional career, and outside of work, I enjoy working on cars, troubleshooting broken devices, hiking with my dogs, and watching Formula 1 races on Sundays. Thanks for visiting my portfolio!";
 
 /* Skills
  ************************************************************** 
@@ -104,13 +106,21 @@ export const resume = "https://docs.google.com/document/d/e/2PACX-1vQK0WIMEZbTBb
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["Tic-Tac-Toe", "TypeTest", "Photo-Synthesis"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
-    name: "example-1",
+    name: "Tic-Tac-Toe",
     image: Logo,
+  },
+  {
+    name: "TypeTest",
+    image: Logo2,
+  },
+  {
+    name: "Photo-Synthesis",
+    image: Logo3
   },
 ];
 
