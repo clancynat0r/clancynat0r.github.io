@@ -39,7 +39,7 @@ export { HeroDark as Dark };
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "Hello, I'm Clancy, an aspiring project manager who began coding at 13, teaching myself HTML and Javascript at my school library. My passion lies in creating user-friendly, shareable, and adaptable technology. I've continued my programming journey into my professional career, and outside of work, I enjoy working on cars, troubleshooting broken devices, hiking with my dogs, and watching Formula 1 races on Sundays. Thanks for visiting my portfolio!";
+  "Hello, I'm Clancy, an aspiring Product Manager with a strong technical foundation, having started coding at the age of 13 by self-teaching HTML and JavaScript. This early start has shaped my ability to understand and translate complex technical concepts into user-centric, adaptable product solutions. My journey in product management is fueled by a passion for guiding the development of technology products from ideation through to market launch. With a solid background in programming, I offer a technical perspective that enhances my ability to manage product lifecycles effectively, ensuring that projects align with user needs and market trends. Outside of my professional life, I engage in activities that sharpen my problem-solving and strategic thinking skills, such as working on cars, troubleshooting devices, and enjoying Formula 1 races on Sundays. I'm also an avid hiker, frequently exploring trails with my dogs. Thank you for visiting my portfolio! I look forward to discussing how my technical expertise and product management skills can contribute to your projects and goals.";
 
 /* Skills
  ************************************************************** 
@@ -94,7 +94,7 @@ export const skillData = [
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = null;
+export const resume = "https://docs.google.com/document/d/1tK_MQhlyFYl7_ZsnK2way8sLkPAtyVxDV8WO5ezN3dc/pub";
 
 /* Projects
  ************************************************************** 
