@@ -2,14 +2,18 @@
 import { Icon } from "@iconify/react";
 
 // Navbar Logo image (add your image to the src/images directory and uncomment the line below to import your image)
-// import newLogo from "./images/yourFileName"
+ import newLogo from "./images/moon.png"
 
 // Hero Images (add your images to the /images directory with the same names)
+
+
 import HeroLight from "./images/hero-light.jpg";
 import HeroDark from "./images/hero-dark.jpg";
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+import Logo1 from "./images/Logo1.jpg";
+import Logo2 from "./images/Logo2.jpg";
+import Logo3 from "./images/Logo3.jpg";
 
 /* START HERE
  **************************************************************
@@ -35,7 +39,7 @@ export { HeroDark as Dark };
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "Hello, I'm Clancy, an aspiring project manager who began coding at 13, teaching myself HTML and Javascript at my school library. My passion lies in creating user-friendly, shareable, and adaptable technology. I've continued my programming journey into my professional career, and outside of work, I enjoy working on cars, troubleshooting broken devices, hiking with my dogs, and watching Formula 1 races on Sundays. Thanks for visiting my portfolio!";
 
 /* Skills
  ************************************************************** 
@@ -96,13 +100,21 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["Photo-Synthesis", "Tic-Tac-Toe", "TypeTest"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "Photo-Synthesis",
+    image: Logo1,
+  },
+  {
+    name: "Tic-Tac-Toe",
+    image: Logo2,
+  },
+  {
+    name: "TypeTest",
+    image: Logo3,
   },
 ];
 
@@ -111,7 +123,7 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/xjvqaqna";
 
 // Footer icons theme (light or dark)
 export const footerTheme = "dark";
